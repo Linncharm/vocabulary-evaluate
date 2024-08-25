@@ -1,0 +1,49 @@
+.main {
+  padding: 20px;
+}
+
+.introduction {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+.CheckGroup {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.CheckRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.CheckLeft, .CheckRight {
+  width: 45%;  /* 每个占据45%的宽度，留出10%的间距 */
+}
+
+.CheckLeft {
+  display: flex;
+  justify-content: flex-start;  /* 左侧对齐 */
+}
+
+.CheckRight {
+  display: flex;
+  justify-content: flex-start;  /* 左侧对齐 */
+}
+
+.NextPage {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 如果需要垂直方向居中 */
+}
+
+
+.van-checkbox {
+  
+  width: calc(50%+50px);
+}

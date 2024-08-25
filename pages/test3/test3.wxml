@@ -1,0 +1,18 @@
+<view class="main">
+  <view class="introduction">
+    <p>若至少知道以下单词一种意思打勾(2/3)</p>
+  </view>
+</view>
+<view class="CheckGroup">
+  <view class="CheckRow" wx:for="{{checkboxes}}" wx:key="index">
+    <view class="CheckLeft">
+      <van-checkbox value="{{item[0].checked}}" data-row="{{index}}" data-col="0" bind:change="onChange">{{item[0].label}}</van-checkbox>
+    </view>
+    <view class="CheckRight">
+      <van-checkbox value="{{item[1].checked}}" data-row="{{index}}" data-col="1" bind:change="onChange">{{item[1].label}}</van-checkbox>
+    </view>
+  </view>
+</view>
+<view class="NextPage">
+  <van-button type="default" bindtap="navigateToNextPage">下一页</van-button>
+</view>

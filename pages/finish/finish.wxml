@@ -1,0 +1,8 @@
+<view  class="card">
+  <view class="wor">你的{{ci_ku}}词库词汇量约是</view>
+  <view class="wors">{{words}}</view>
+</view>
+<van-button class="more" round type="info" bindtap="more">再测一次</van-button>
+<van-button class="back" round plain type="info" bindtap="back">返回首页</van-button>
+
+

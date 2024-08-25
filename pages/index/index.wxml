@@ -1,0 +1,10 @@
+<view class="image-container">
+  <image src="/img/index.jpg" style="width: 608rpx; height: 562rpx; display: block; box-sizing: border-box"></image>
+  <p style="width: 343rpx; height: 50rpx; display: block; box-sizing: border-box">词汇量测试plus</p>
+</view>
+
+<view class="container" style="width: 750rpx; height: 770rpx; display: flex; box-sizing: border-box">
+  <input style="width: 624rpx; height: 131rpx; display: block; box-sizing: border-box" type="text" placeholder="请输入姓名" bindinput="onNameInput" />
+  <button bindtap="navigateToTest2" bindchooseavatar="navigateToTest1" style="width: 424rpx; height: 131rpx; display: block; box-sizing: border-box; left: -1rpx; top: 11rpx; position: relative">测试入口</button>
+</view>
+
